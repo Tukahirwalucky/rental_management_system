@@ -5,6 +5,8 @@ app_description = "Managing tenants"
 app_email = "emilylucky062@gmail.com"
 app_license = "mit"
 
+app_include_js = "/assets/rental_management_system/js/rental_management_system.js"
+
 # Apps
 # ------------------
 

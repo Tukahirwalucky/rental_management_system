@@ -1,0 +1,38 @@
+{
+  "label": "Rental Management System",
+  "icon": "fa fa-building",
+  "type": "module",
+  "module": "Rental Management System",
+  "links": [
+    {
+      "type": "doctype",
+      "name": "Property",
+      "label": "Property"
+    },
+    {
+      "type": "doctype",
+      "name": "Tenant",
+      "label": "Tenant"
+    },
+    {
+      "type": "doctype",
+      "name": "Lease",
+      "label": "Lease"
+    },
+    {
+      "type": "doctype",
+      "name": "Invoice",
+      "label": "Invoice"
+    },
+    {
+      "type": "doctype",
+      "name": "Payments",
+      "label": "Payments"
+    },
+    {
+      "type": "doctype",
+      "name": "Rental Settings",
+      "label": "Rental Settings"
+    }
+  ]
+}
