@@ -7,6 +7,16 @@ app_license = "mit"
 
 app_include_js = "/assets/rental_management_system/js/rental_management_system.js"
 
+fixtures = [
+    "Tenant",
+    "Property",
+    "Lease",
+    "Invoice",
+    "Rental Settings",
+    "Payments"
+]
+
+
 # Apps
 # ------------------
 
