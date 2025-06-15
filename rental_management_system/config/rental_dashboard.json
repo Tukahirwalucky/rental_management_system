@@ -1,0 +1,11 @@
+{
+  "doctype": "Workspace",
+  "name": "rental_dashboard",
+  "title": "Rental Dashboard",
+  "label": "Rental Dashboard",
+  "module": "Rental Management System",
+  "package": "rental_management_system",
+  "content": "[{\"type\": \"card\", \"name\": \"Pending Amount\", \"doctype\": \"Invoice\", \"filters\": [[\"status\", \"=\", \"Unpaid\"]], \"fieldname\": \"outstanding_amount\", \"aggregation\": \"sum\"}, {\"type\": \"card\", \"name\": \"Properties / Units\", \"doctype\": \"Property\", \"filters\": [[\"status\", \"=\", \"Active\"]], \"fieldname\": \"name\", \"aggregation\": \"count\"}, {\"type\": \"chart\", \"name\": \"Monthly Payments\", \"chart_type\": \"Bar\", \"doctype\": \"Payment\", \"timespan\": \"Monthly\", \"fieldname\": \"paid_amount\"}]",
+  "public": 1,
+  "is_standard": 1
+}
