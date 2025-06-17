@@ -1,1 +1,49 @@
-[]
+{
+  "doctype": "DocType",
+  "name": "Property",
+  "module": "Rental Management System",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "property_name",
+      "label": "Property Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "address",
+      "label": "Address",
+      "fieldtype": "Small Text",
+      "reqd": 1
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Active\nVacant",
+      "default": "Vacant",
+      "reqd": 1
+    },
+    {
+      "fieldname": "monthly_rent",
+      "label": "Monthly Rent",
+      "fieldtype": "Currency",
+      "reqd": 1
+    },
+    {
+      "fieldname": "property_type",
+      "label": "Property Type",
+      "fieldtype": "Data",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}

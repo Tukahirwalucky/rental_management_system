@@ -1,1 +1,35 @@
-[]
+{
+  "doctype": "DocType",
+  "name": "Rental Settings",
+  "module": "Rental Management System",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "days_in_month",
+      "label": "Days in Month",
+      "fieldtype": "Int",
+      "reqd": 1
+    },
+    {
+      "fieldname": "grace_period",
+      "label": "Grace Period (days)",
+      "fieldtype": "Int",
+      "reqd": 1
+    },
+    {
+      "fieldname": "property_naming_prefix",
+      "label": "Property Naming Prefix",
+      "fieldtype": "Data",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}

@@ -1,14 +1,42 @@
-[
- {
-  "amended_from": null,
-  "docstatus": 1,
-  "doctype": "Tenant",
-  "email": "emilylucky062@gmail.com",
-  "full_name": "Tukahirwa Emily",
-  "modified": "2025-06-13 05:11:30.425977",
-  "name": "Tenants",
-  "phone": "+256-787380496",
-  "property": "Land",
-  "workflow_state": "Approved"
- }
-]
+{
+  "doctype": "DocType",
+  "name": "Tenant",
+  "module": "Rental Management System",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "full_name",
+      "label": "Full Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "email",
+      "label": "Email",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "phone",
+      "label": "Phone",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "property",
+      "label": "Property",
+      "fieldtype": "Link",
+      "options": "Property",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doctype": "Workspace",
+  "name": "rental_dashboard",
+  "label": "Rental Dashboard",
+  "title": "Rental Dashboard",
+  "module": "Rental Management System",
+  "package": "rental_management_system",
+  "public": 1,
+  "is_standard": 1,
+  "content": "[{\"type\": \"card\", \"label\": \"Pending Amount\", \"card_type\": \"Number\", \"method\": \"rental_management_system.api.get_pending_amount\", \"icon\": \"fa fa-money\", \"color\": \"orange\"}, {\"type\": \"card\", \"label\": \"Properties / Units\", \"card_type\": \"Number\", \"method\": \"rental_management_system.api.get_properties_counts\", \"icon\": \"fa fa-building\", \"color\": \"blue\", \"format\": \"{active} / {total}\"}, {\"type\": \"chart\", \"label\": \"Monthly Payments\", \"chart_type\": \"Bar\", \"method\": \"rental_management_system.api.get_monthly_payments\", \"color\": \"green\"}]"
+}

@@ -3,6 +3,18 @@
   "amended_from": null,
   "docstatus": 1,
   "doctype": "Tenant",
+  "email": "lucky.tuka00@gmail.com",
+  "full_name": "Emily Lucky",
+  "modified": "2025-06-14 18:25:19.910414",
+  "name": "inda7aedar",
+  "phone": "+256-787380496",
+  "property": "Land",
+  "workflow_state": null
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Tenant",
   "email": "emilylucky062@gmail.com",
   "full_name": "Tukahirwa Emily",
   "modified": "2025-06-13 05:11:30.425977",

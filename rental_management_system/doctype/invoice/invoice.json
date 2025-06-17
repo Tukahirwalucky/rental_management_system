@@ -1,1 +1,44 @@
-[]
+{
+  "doctype": "DocType",
+  "name": "Invoice",
+  "module": "Rental Management System",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "tenant",
+      "label": "Tenant",
+      "fieldtype": "Link",
+      "options": "Tenant",
+      "reqd": 1
+    },
+    {
+      "fieldname": "amount",
+      "label": "Amount",
+      "fieldtype": "Currency",
+      "reqd": 1
+    },
+    {
+      "fieldname": "due_date",
+      "label": "Due Date",
+      "fieldtype": "Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Pending\nPaid",
+      "default": "Pending",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}

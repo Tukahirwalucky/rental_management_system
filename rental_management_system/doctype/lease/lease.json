@@ -1,1 +1,54 @@
-[]
+{
+  "doctype": "DocType",
+  "name": "Lease",
+  "module": "Rental Management System",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "tenant",
+      "label": "Tenant",
+      "fieldtype": "Link",
+      "options": "Tenant",
+      "reqd": 1
+    },
+    {
+      "fieldname": "property",
+      "label": "Property",
+      "fieldtype": "Link",
+      "options": "Property",
+      "reqd": 1
+    },
+    {
+      "fieldname": "start_date",
+      "label": "Start Date",
+      "fieldtype": "Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "end_date",
+      "label": "End Date",
+      "fieldtype": "Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "rent_amount",
+      "label": "Rent Amount",
+      "fieldtype": "Currency",
+      "reqd": 1
+    },
+    {
+      "fieldname": "lease_type",
+      "label": "Lease Type",
+      "fieldtype": "Data"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}
