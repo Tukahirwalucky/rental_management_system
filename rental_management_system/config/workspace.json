@@ -1,0 +1,42 @@
+{
+  "title": "Rental Management System",
+  "icon": "fa fa-building",
+  "color": "#4B7BE5",
+  "modules": [
+    {
+      "module_name": "Rental Management System",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Property",
+          "label": "Properties",
+          "route": "/app/property"
+        },
+        {
+          "type": "doctype",
+          "name": "Tenant",
+          "label": "Tenants",
+          "route": "/app/tenant"
+        },
+        {
+          "type": "doctype",
+          "name": "Lease",
+          "label": "Leases",
+          "route": "/app/lease"
+        },
+        {
+          "type": "doctype",
+          "name": "Invoice",
+          "label": "Invoices",
+          "route": "/app/invoice"
+        },
+        {
+          "type": "report",
+          "name": "Pending Invoices Report",
+          "label": "Reports",
+          "route": "/app/query-report/Pending Invoices Report"
+        }
+      ]
+    }
+  ]
+}
